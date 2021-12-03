@@ -6,7 +6,7 @@ import "./secundaryCard.css";
 
 const SecundaryCard = (props) => {
 	const sunny = ["Sunny","Clear"];
-	const cloudy = ["Cloudy","Partly cloud","Mist","Overcast"];
+	const cloudy = ["Cloudy","Partly cloud","Mist","Overcast","Partly cloudy"];
 
 	const change = () => {
 		if (sunny.find(item => item === props.description)) return Sun;
