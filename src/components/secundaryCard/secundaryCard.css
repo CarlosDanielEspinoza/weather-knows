@@ -1,0 +1,36 @@
+.secundaryCard{
+	background-color: rgba(50,50,50,0.7);
+	box-shadow: 0em 0.2em 0.4em gray;
+	max-width: 400px;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.secundaryCard_img{
+	margin-right: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.secundaryCard_Data{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	color: white;
+}
+
+.Data_Temp{
+	font-size: 3em;
+}
+
+.Data_Other{
+	font-weight: normal;
+	font-style: italic;
+	text-align: right;
+}

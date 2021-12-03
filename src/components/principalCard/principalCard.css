@@ -1,0 +1,72 @@
+
+.principalCard{
+	background-color: rgba(50,50,50,0.7);
+	box-shadow: 0em 0.2em 0.4em gray;
+	max-width: 400px;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contentOne{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contentTwo{
+	padding: 1em 0em 0em 0em;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.imgWeather{
+	margin-right: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.infoWeather{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.infoTemp{
+	font-size: 4.5em;
+	color: white;
+}
+.infoSecond{
+	font-weight: normal;
+	font-style: italic;
+	color: white;
+}
+
+.infoLocal{
+	font-size: 2em;
+	color: white;
+}
+
+@media (max-width: 612px){
+	.contentOne{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.infoWeather{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.infoLocal{
+		text-align: center;
+	}
+}
